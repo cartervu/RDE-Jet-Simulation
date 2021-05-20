@@ -1,0 +1,20 @@
+AnimationSequence1.0
+NAME: .\\density-contour-animation
+WINID: 3
+STORAGE: 5
+PLOTANIMATION: 0
+FRAMES: 14
+Frame 0 5 density-contour-animation_0000.hsf 3
+Frame 1 5 density-contour-animation_0001.hsf 3
+Frame 2 5 density-contour-animation_0002.hsf 3
+Frame 3 5 density-contour-animation_0003.hsf 3
+Frame 4 5 density-contour-animation_0004.hsf 3
+Frame 5 5 density-contour-animation_0005.hsf 3
+Frame 6 5 density-contour-animation_0006.hsf 3
+Frame 7 5 density-contour-animation_0007.hsf 3
+Frame 8 5 density-contour-animation_0008.hsf 3
+Frame 9 5 density-contour-animation_0009.hsf 3
+Frame 10 5 density-contour-animation_0010.hsf 3
+Frame 11 5 density-contour-animation_0011.hsf 3
+Frame 12 5 density-contour-animation_0012.hsf 3
+Frame 13 5 density-contour-animation_0013.hsf 3

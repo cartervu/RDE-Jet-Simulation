@@ -1,0 +1,28 @@
+# encoding: utf-8
+# 2020 R1
+SetScriptVersion(Version="20.1.164")
+template1 = GetTemplate(TemplateName="Fluid Flow")
+system1 = template1.CreateSystem()
+system1.DisplayText = "2D Radial Cylinder"
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+geometry1.SetFile(FilePath="C:/Users/cartervu/Desktop/2D-Cylinder-Fluid-Volume.STEP")
+meshComponent1 = system1.GetComponent(Name="Mesh")
+meshComponent1.Refresh()
+geometry1.SetFile(FilePath="C:/Users/cartervu/Desktop/2D-Cylinder-Fluid-Volume.STEP")
+meshComponent1.Refresh()
+meshComponent1.Refresh()
+meshComponent1.Refresh()
+template2 = GetTemplate(TemplateName="Q3D2DExtractor Design")
+geometryComponent1 = system1.GetComponent(Name="Geometry")
+componentTemplate1 = GetComponentTemplate(Name="Q3D2DExtractorGeometry")
+system2 = template2.CreateSystem(
+    DataTransferFrom=[Set(FromComponent=geometryComponent1, TransferName=None, ToComponentTemplate=componentTemplate1)],
+    RelativeTo=system1)
+geometry1.SetFile(FilePath="C:/Users/cartervu/Desktop/2D-Cylinder-Fluid-Volume.IGS")
+meshComponent1.Refresh()
+mesh1 = system1.GetContainer(ComponentName="Mesh")
+mesh1.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)

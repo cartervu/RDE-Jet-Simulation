@@ -1,0 +1,20 @@
+AnimationSequence1.0
+NAME: .\\static-temperature-contour-animation
+WINID: 5
+STORAGE: 5
+PLOTANIMATION: 0
+FRAMES: 14
+Frame 0 5 static-temperature-contour-animation_0000.hsf 5
+Frame 1 5 static-temperature-contour-animation_0001.hsf 5
+Frame 2 5 static-temperature-contour-animation_0002.hsf 5
+Frame 3 5 static-temperature-contour-animation_0003.hsf 5
+Frame 4 5 static-temperature-contour-animation_0004.hsf 5
+Frame 5 5 static-temperature-contour-animation_0005.hsf 5
+Frame 6 5 static-temperature-contour-animation_0006.hsf 5
+Frame 7 5 static-temperature-contour-animation_0007.hsf 5
+Frame 8 5 static-temperature-contour-animation_0008.hsf 5
+Frame 9 5 static-temperature-contour-animation_0009.hsf 5
+Frame 10 5 static-temperature-contour-animation_0010.hsf 5
+Frame 11 5 static-temperature-contour-animation_0011.hsf 5
+Frame 12 5 static-temperature-contour-animation_0012.hsf 5
+Frame 13 5 static-temperature-contour-animation_0013.hsf 5
